@@ -1,0 +1,10 @@
+{
+ "updated_at": "2026-11-07T12:00:00",
+ "model_note": "两维度模型：端口=能力维度（谁能调配谁，见 README）；部门=管理维度（任务归属领域）。任务分配给部门，端口确认后代入执行。职责边界：调度端不代写端口计划任务——「应该做什么」录成任务单，端口读台账后自设定时任务。",
+ "round": "示例轮",
+ "tasks": [
+  {"id": "D-20261107-01", "round": "示例轮", "dept": "dept_a", "title": "示例：调查某主题并产出简报", "assignee": "dept_a", "executed_by": "", "port": "buddy", "kind": "指定端口", "assign_type": "immediate", "status": "published", "report": "", "review": "", "created": "2026-11-07T12:00:00", "closed": ""},
+  {"id": "D-20261107-02", "round": "示例轮", "dept": "dept_b", "title": "示例：不紧急的整理任务（计划分配）", "assignee": "dept_b", "executed_by": "", "port": "", "kind": "自由任务", "assign_type": "planned", "status": "published", "report": "", "review": "", "created": "2026-11-07T12:00:00", "closed": ""},
+  {"id": "D-20261107-03", "round": "示例轮", "dept": "dept_a", "title": "示例：判断类任务（上浮人工拍板）", "assignee": "dept_a", "executed_by": "", "port": "", "kind": "自由任务", "assign_type": "immediate", "status": "need_review", "report": "", "review": "", "created": "2026-11-07T12:00:00", "closed": ""}
+ ]
+}

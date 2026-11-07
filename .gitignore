@@ -1,0 +1,5 @@
+data/duty_board.json
+data/watcher_alerts.jsonl
+results/
+*.log
+__pycache__/
